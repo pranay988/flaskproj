@@ -6,7 +6,6 @@ app.secret_key = 'your_secret_key'
 
 users_database = {}
 
-
 @app.route('/')
 def registration_page():
     return render_template('registration.html')
